@@ -17,6 +17,9 @@
   },
   "dependencies": {
     "@apollo/client": "^3.4.10",
-    "graphql": "^15.5.2"
+    "apollo-server-express": "^3.3.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.2",
+    "jsonwebtoken": "^8.5.1"
   }
 }
