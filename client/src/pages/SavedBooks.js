@@ -7,7 +7,7 @@ import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 
-const SavedBooks = () => 
+const SavedBooks = () => {
 
   const { loading, data } = useQuery(GET_ME);
   const userData = data?.me || {};
@@ -74,7 +74,7 @@ const SavedBooks = () =>
         </CardColumns>
       </Container>
     </>
-  );
-
+  )
+};
 
 export default SavedBooks;
